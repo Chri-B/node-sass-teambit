@@ -1,0 +1,37 @@
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #logo {
+
+    }
+
+    #navbar {
+
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+
+            li {
+                font-weight: $bold_text;
+                font-size: $text_size_small;
+                padding-left: 50px;
+
+                a {
+                    color: $text_color;
+                }
+
+                &:first-of-type:after {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: "\f078";
+                }
+            }
+        }
+    }
+}

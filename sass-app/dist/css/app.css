@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* MIXINS */
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #4e3d1e;
+}
+
+.container-fullwidth {
+  background-color: #ffe7d2;
+}
+
+.container-fullwidth:nth-of-type(2n) {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* COOKIE-LAW */
+
+.cookie-law {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cookie-law p a {
+  color: #30488f;
+}
+
+/* HEADER */
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+header nav ul li a {
+  color: #4e3d1e;
+}
+
+header nav ul li:first-of-type:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\F078";
+}
+
+/* MAIN */
+
+/* FOOTER */
+
