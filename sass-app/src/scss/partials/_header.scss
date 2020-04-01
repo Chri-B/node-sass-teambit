@@ -1,37 +1,57 @@
 header {
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 
-    #logo {
+    .container {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: $border_thin_gray;
 
-    }
-
-    #navbar {
-
-    }
-
-    nav {
-
-        ul {
+        #logo {
             display: flex;
+            align-items: center;
 
-            li {
-                font-weight: $bold_text;
-                font-size: $text_size_small;
-                padding-left: 50px;
+            h3 {
+                font-weight: normal;
+                padding-left: 10px;
+            }
+        }
 
-                a {
-                    color: $text_color;
-                }
+        nav {
 
-                &:first-of-type:after {
-                    font-family: "Font Awesome 5 Free";
-                    font-weight: 900;
-                    content: "\f078";
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    font-weight: $bold_text;
+                    font-size: $text_size_small;
+                    padding-left: 50px;
+
+                    a {
+                        color: $text_color;
+
+                        &:hover {
+                            color: $secondary_color;
+                        }
+                    }
+
+                    &:first-of-type:after {
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        content: "\f078";
+                    }
+
+
                 }
             }
         }
     }
+
 }

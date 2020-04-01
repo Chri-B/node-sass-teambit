@@ -1,0 +1,43 @@
+main {
+    .banner {
+        .jumbotron {
+            width: 50%;
+            padding-right: 60px;
+            float: left;
+
+            h1 {
+                font-size: $text_size_h1;
+            }
+
+            p {
+                font-size: $text_size_medium;
+                padding: 40px 0;
+            }
+
+            .buttons {
+                padding-bottom: 20px;
+                display: flex;
+                align-items: center;
+
+                .divisore {
+                    padding: 0 20px;
+                }
+            }
+
+            span {
+                font-size: $text_size_small;
+                font-weight: $thin_text;
+            }
+
+        }
+        .banner-img {
+            width: 50%;
+            float: left;
+            object-fit: contain;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

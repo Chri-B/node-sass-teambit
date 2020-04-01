@@ -1,12 +1,15 @@
-.cookie-law {
-    text-align: center;
-    padding: 10px 0;
-    font-size: $text_size_smaller;
-    font-weight: $bold_text;
+.container-cookie{
+    background-color: $primary_color;
+    .cookie-law {
+        text-align: center;
+        padding: 10px 0;
+        font-size: $text_size_smaller;
+        font-weight: $bold_text;
 
-    p {
-        a {
-            color: $secondary_color;
+        p {
+            a {
+                color: $secondary_color;
+            }
         }
     }
 }
