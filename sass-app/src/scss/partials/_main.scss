@@ -14,13 +14,7 @@ main {
             }
 
             .buttons {
-                padding-bottom: 20px;
-                display: flex;
-                align-items: center;
-
-                .divisore {
-                    padding: 0 20px;
-                }
+                @include buttons;
             }
 
         }
@@ -137,6 +131,66 @@ main {
     }
 
     .fourth {
-        
+        text-align: center;
+        padding-bottom: $padding_medium;
+
+        .small {
+            width: 35%;
+
+            .title {
+                font-size: $text_size_big;
+                padding-bottom: $padding_medium;
+            }
+
+            .quote-box {
+                text-align: left;
+                background-color: #ffffff;
+                padding: 30px 40px;
+                border: $border_thin_gray;
+                border-radius: 10px;
+                position: relative;
+
+                p {
+                    font-size: $text_size_paragraph_small;
+                    padding-bottom: 30px;
+                }
+
+                .quote-image {
+                    position: absolute;
+                    width: 40px;
+                    top: 0;
+                    left: 0;
+                    transform: translateY(-60%);
+                }
+
+                .founders {
+                    display: flex;
+
+                    img {
+                        width: 40px;
+                        height: 100%;
+                        margin-right: 10px;
+                    }
+
+                    .founders-info {
+                        p {
+                            padding-bottom: 0;
+                            font-size: $text_size_small;
+                            color: $secondary_color;
+                        }
+                        span {
+                            font-size: $text_size_smaller;
+                        }
+                    }
+                }
+            }
+
+            .buttons {
+                @include buttons;
+                justify-content: center;
+                padding-top: $padding_medium;
+
+            }
+        }
     }
 }

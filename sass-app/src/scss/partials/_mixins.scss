@@ -1,1 +1,8 @@
-
+@mixin buttons {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    .divisore {
+        padding: 0 20px;
+    }
+}

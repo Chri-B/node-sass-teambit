@@ -136,7 +136,7 @@ header .container nav ul {
 header .container nav ul li {
   font-weight: 700;
   font-size: 14px;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 header .container nav ul li a {
@@ -157,7 +157,7 @@ header .container nav ul li:first-of-type:after {
 
 main .first .jumbotron {
   width: 50%;
-  padding-right: 100px;
+  padding-right: 50px;
   float: left;
 }
 
@@ -281,5 +281,122 @@ main .third .last {
   padding-bottom: 0;
 }
 
+main .fourth {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main .fourth .small {
+  width: 35%;
+}
+
+main .fourth .small .title {
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+main .fourth .small .quote-box {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 10px;
+  position: relative;
+}
+
+main .fourth .small .quote-box p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+main .fourth .small .quote-box .quote-image {
+  position: absolute;
+  width: 40px;
+  top: 0;
+  left: 0;
+  transform: translateY(-60%);
+}
+
+main .fourth .small .quote-box .founders {
+  display: flex;
+}
+
+main .fourth .small .quote-box .founders img {
+  width: 40px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+main .fourth .small .quote-box .founders .founders-info p {
+  padding-bottom: 0;
+  font-size: 14px;
+  color: #30488f;
+}
+
+main .fourth .small .quote-box .founders .founders-info span {
+  font-size: 12px;
+}
+
+main .fourth .small .buttons {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+main .fourth .small .buttons .divisore {
+  padding: 0 20px;
+}
+
 /* FOOTER */
+
+footer .container {
+  display: flex;
+}
+
+footer .container .helps {
+  width: 30%;
+  display: flex;
+}
+
+footer .container .helps h5 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+footer .container .helps img {
+  height: 50px;
+}
+
+footer .container .footer-navbar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+footer .container .footer-navbar .site-list {
+  margin: 0 10px;
+  width: calc(100% / 5);
+}
+
+footer .container .footer-navbar .site-list h6 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+footer .container .footer-navbar .site-list li {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+footer .container .footer-navbar .site-list li a {
+  color: #4e3d1e;
+}
+
+footer .container .footer-navbar .site-list li a:hover {
+  color: #30488f;
+}
 

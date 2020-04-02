@@ -1,0 +1,50 @@
+footer {
+    .container {
+        display: flex;
+
+        .helps {
+            width: 30%;
+            display: flex;
+
+            h5 {
+                font-size: $text_size_paragraph_small;
+                font-weight: $bold_text;
+                padding-left: 10px;
+            }
+
+            img {
+                height: 50px;
+            }
+        }
+
+        .footer-navbar {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            padding-left: $padding_medium;
+
+            .site-list {
+                margin: 0 10px;
+                width: calc(100% / 5);
+
+                h6 {
+                    font-size: $text_size_paragraph_small;
+                    padding-bottom: 10px;
+                }
+
+                li {
+                    padding: 10px 0;
+                    font-size: $text_size_small;
+                    
+                    a {
+                        color: $text_color;
+
+                        &:hover {
+                            color: $secondary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
