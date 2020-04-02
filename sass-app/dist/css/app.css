@@ -400,3 +400,22 @@ footer .container .footer-navbar .site-list li a:hover {
   color: #30488f;
 }
 
+/* CHAT-ICON */
+
+.chat-icon {
+  background-color: #30488f;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(-30%, -30%);
+  z-index: 99;
+}
+
+.chat-icon:hover {
+  cursor: pointer;
+}
+
