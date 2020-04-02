@@ -22,8 +22,21 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: $text_size_medium;
+}
+
+span {
+    font-size: $text_size_small;
+    font-weight: $thin_text;
+}
+
 ul {
     list-style: none;
+}
+
+.bgc-orange {
+    background-color: $primary_color;
 }
 
 .btn {

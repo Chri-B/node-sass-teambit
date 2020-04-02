@@ -1,5 +1,5 @@
 main {
-    .banner {
+    .first {
         .jumbotron {
             width: 50%;
             padding-right: $padding_medium;
@@ -10,7 +10,6 @@ main {
             }
 
             p {
-                font-size: $text_size_medium;
                 padding: 40px 0;
             }
 
@@ -22,11 +21,6 @@ main {
                 .divisore {
                     padding: 0 20px;
                 }
-            }
-
-            span {
-                font-size: $text_size_small;
-                font-weight: $thin_text;
             }
 
         }
@@ -42,8 +36,7 @@ main {
         }
     }
 
-    .bgc-orange {
-        background-color: $primary_color;
+    .second {
 
         .container {
             text-align: center;
@@ -87,5 +80,63 @@ main {
                 }
             }
         }
+    }
+
+    .third {
+        .learn-more-section {
+            padding-bottom: $padding_big;
+
+            .img-only {
+                width: 50%;
+                float: left;
+
+                img {
+                    width: 100%;
+                    padding-right: 20px;
+                    float: right;
+                }
+            }
+
+            .text-and-img {
+                width: 30%;
+                float: left;
+
+                p {
+                    padding: 20px 0;
+                }
+
+                .img-bottom {
+                    text-align: center;
+                    padding-top: 20px;
+
+                    img{
+                        max-width: 270px;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                .img-only {
+                    float: right;
+
+                    img {
+                        float: left;
+                    }
+                }
+
+                .text-and-img {
+                    float: right;
+                }
+            }
+
+        }
+        .last {
+            padding-bottom: 0;
+        }
+
+    }
+
+    .fourth {
+        
     }
 }

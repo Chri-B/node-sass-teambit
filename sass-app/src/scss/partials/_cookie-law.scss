@@ -3,10 +3,10 @@
     .cookie-law {
         text-align: center;
         padding: 10px 0;
-        font-size: $text_size_smaller;
-        font-weight: $bold_text;
 
         p {
+            font-size: $text_size_smaller;
+            font-weight: $bold_text;
             a {
                 color: $secondary_color;
             }
