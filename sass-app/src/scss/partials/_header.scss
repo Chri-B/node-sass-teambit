@@ -5,13 +5,13 @@ header {
     left: 0;
     right: 0;
     z-index: 999;
+    border-bottom: $border_thin_gray;
 
     .container {
         height: 70px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-bottom: $border_thin_gray;
 
         #logo {
             display: flex;
@@ -32,7 +32,7 @@ header {
                 li {
                     font-weight: $bold_text;
                     font-size: $text_size_small;
-                    padding-left: 50px;
+                    padding-left: $padding_medium;
 
                     a {
                         color: $text_color;
